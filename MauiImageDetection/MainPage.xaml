@@ -9,7 +9,7 @@
 
             <Button
                 x:Name="CounterBtn"
-                Clicked="OnCounterClicked"
+                Clicked="OnButtonClicked"
                 HorizontalOptions="Fill"
                 SemanticProperties.Hint="Click to capture face using camera!"
                 Text="Face Recognition" />

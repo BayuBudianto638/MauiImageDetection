@@ -21,7 +21,7 @@ namespace MauiImageDetection
             }
         }
 
-        private async void OnCounterClicked(object sender, EventArgs e)
+        private async void OnButtonClicked(object sender, EventArgs e)
         {
             if (MediaPicker.Default.IsCaptureSupported)
             {
